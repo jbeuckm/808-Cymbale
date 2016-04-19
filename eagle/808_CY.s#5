@@ -10843,6 +10843,106 @@ NS Package M08A</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="erthenvar">
+<packages>
+<package name="ERTHENVAR-JACK">
+<pad name="1@1" x="-4.2" y="0" drill="2.5" rot="R90"/>
+<pad name="3" x="0" y="4.9" drill="2.5" rot="R90"/>
+<pad name="2" x="0" y="-3.3" drill="2.5" rot="R90"/>
+<pad name="1@2" x="4.2" y="0" drill="1.5" rot="R90"/>
+<wire x1="-4.9" y1="6" x2="4.9" y2="6" width="0.127" layer="51"/>
+<wire x1="4.9" y1="6" x2="4.9" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="-4.9" x2="-4.9" y2="6" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="-5" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-5" x2="-2" y2="-5" width="0.2032" layer="21"/>
+<wire x1="1.651" y1="-5.08" x2="4.953" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="4.953" y1="-5.08" x2="4.953" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="4.953" y1="1.651" x2="4.953" y2="5.969" width="0.2032" layer="25"/>
+<wire x1="4.953" y1="5.969" x2="2.413" y2="5.969" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="5.969" x2="-4.826" y2="5.969" width="0.2032" layer="21"/>
+<wire x1="-4.826" y1="5.969" x2="-4.826" y2="2.159" width="0.2032" layer="21"/>
+<text x="3.81" y="6.35" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="ERTHENVAR-JACK-90DEG">
+<description>&lt;h4&gt;3.5mm Right Angle Jacks&lt;/h4&gt;
+
+&lt;a href="http://erthenvar.com/store/accessories/3.5mm-right-angle-jacks"&gt;http://erthenvar.com/store/accessories/3.5mm-right-angle-jacks&lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="51"/>
+<wire x1="10" y1="0" x2="10" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="10" y1="-15.5" x2="0" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="0" y1="-15.5" x2="0" y2="0" width="0.127" layer="51"/>
+<text x="3.81" y="6.35" size="1.27" layer="21">&gt;NAME</text>
+<wire x1="4.4" y1="-2.5" x2="5.6" y2="-2.5" width="1.016" layer="46"/>
+<wire x1="4.4" y1="-15.7" x2="5.6" y2="-15.7" width="1.016" layer="46"/>
+<wire x1="-0.2" y1="-14.1" x2="-0.2" y2="-12.9" width="1.016" layer="46"/>
+<pad name="P$2" x="-0.2" y="-13.5" drill="1.3" diameter="2.54" shape="long" rot="R90"/>
+<pad name="P$3" x="5" y="-15.7" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<pad name="P$1" x="5" y="-2.5" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<polygon width="0.127" layer="45">
+<vertex x="2" y="3.5"/>
+<vertex x="8" y="3.5"/>
+<vertex x="8" y="0"/>
+<vertex x="2" y="0"/>
+</polygon>
+<hole x="5.842" y="-2.4892" drill="1.3"/>
+<hole x="4.1402" y="-2.4892" drill="1.3"/>
+<hole x="-0.2032" y="-12.6492" drill="1.3"/>
+<hole x="-0.2032" y="-14.351" drill="1.3"/>
+<hole x="5.842" y="-15.6972" drill="1.3"/>
+<hole x="4.1656" y="-15.6972" drill="1.3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AUDIO-JACK">
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<rectangle x1="-7.62" y1="-5.08" x2="-5.08" y2="2.54" layer="94"/>
+<pin name="RING" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="NORM" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="TIP" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<text x="-7.493" y="4.445" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AUDIO-JACK" prefix="JCK">
+<description>Switching Mono 3.5mm Audio Jack from Erthenvar.</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ERTHENVAR" package="ERTHENVAR-JACK">
+<connects>
+<connect gate="G$1" pin="NORM" pad="2"/>
+<connect gate="G$1" pin="RING" pad="1@1 1@2"/>
+<connect gate="G$1" pin="TIP" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="ERTHENVAR-JACK-90DEG">
+<connects>
+<connect gate="G$1" pin="NORM" pad="P$2"/>
+<connect gate="G$1" pin="RING" pad="P$1"/>
+<connect gate="G$1" pin="TIP" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11051,6 +11151,8 @@ NS Package M08A</description>
 <part name="P-5" library="supply1" deviceset="-15V" device=""/>
 <part name="P+13" library="supply1" deviceset="+15V" device=""/>
 <part name="P-6" library="supply1" deviceset="-15V" device=""/>
+<part name="JCK1" library="erthenvar" deviceset="AUDIO-JACK" device=""/>
+<part name="V2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11191,15 +11293,15 @@ NS Package M08A</description>
 <instance part="V339" gate="1" x="88.9" y="63.5"/>
 <instance part="R109*" gate="G$1" x="111.76" y="71.12" rot="R270"/>
 <instance part="V340" gate="1" x="111.76" y="63.5"/>
-<instance part="R111*" gate="G$1" x="106.68" y="88.9"/>
+<instance part="R111*" gate="G$1" x="106.68" y="96.52"/>
 <instance part="V341" gate="1" x="101.6" y="86.36"/>
 <instance part="R110*" gate="G$1" x="119.38" y="96.52"/>
 <instance part="C55*" gate="G$1" x="134.62" y="78.74" rot="R90"/>
 <instance part="R112*" gate="G$1" x="147.32" y="78.74"/>
 <instance part="R119*" gate="G$1" x="157.48" y="78.74"/>
 <instance part="R125*" gate="G$1" x="152.4" y="53.34" rot="R270"/>
-<instance part="R115*" gate="G$1" x="99.06" y="43.18"/>
-<instance part="R114*" gate="G$1" x="111.76" y="50.8"/>
+<instance part="R115*" gate="G$1" x="99.06" y="48.26"/>
+<instance part="R114*" gate="G$1" x="111.76" y="48.26"/>
 <instance part="V343" gate="1" x="93.98" y="40.64"/>
 <instance part="C52*" gate="G$1" x="99.06" y="27.94" rot="R90"/>
 <instance part="R113*" gate="G$1" x="106.68" y="22.86" rot="R270"/>
@@ -11334,6 +11436,8 @@ NS Package M08A</description>
 <instance part="IC4" gate="P" x="-30.48" y="121.92"/>
 <instance part="P+13" gate="1" x="-30.48" y="134.62"/>
 <instance part="P-6" gate="1" x="-30.48" y="109.22"/>
+<instance part="JCK1" gate="G$1" x="220.98" y="53.34" rot="R180"/>
+<instance part="V2" gate="1" x="213.36" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -11427,6 +11531,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="R111*" gate="G$1" pin="1"/>
 <pinref part="V341" gate="1" pin="GND"/>
+<wire x1="101.6" y1="96.52" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="V33" gate="1" pin="GND"/>
@@ -11440,6 +11545,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="R115*" gate="G$1" pin="1"/>
 <pinref part="V343" gate="1" pin="GND"/>
+<wire x1="93.98" y1="48.26" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R118*" gate="G$1" pin="1"/>
@@ -11513,6 +11619,10 @@ NS Package M08A</description>
 <segment>
 <pinref part="V311" gate="1" pin="GND"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
+</segment>
+<segment>
+<pinref part="JCK1" gate="G$1" pin="RING"/>
+<pinref part="V2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$485" class="0">
@@ -11852,8 +11962,8 @@ NS Package M08A</description>
 </net>
 <net name="N$533" class="0">
 <segment>
-<wire x1="124.46" y1="96.52" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="88.9" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="96.52" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C55*" gate="G$1" pin="1"/>
 <pinref part="R110*" gate="G$1" pin="2"/>
@@ -11880,7 +11990,7 @@ NS Package M08A</description>
 </net>
 <net name="N$535" class="0">
 <segment>
-<wire x1="111.76" y1="88.9" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="81.28" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <junction x="114.3" y="96.52"/>
 <pinref part="R111*" gate="G$1" pin="2"/>
@@ -11906,8 +12016,8 @@ NS Package M08A</description>
 </net>
 <net name="N$539" class="0">
 <segment>
-<wire x1="116.84" y1="50.8" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="43.18" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="48.26" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="30.48" x2="127" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R114*" gate="G$1" pin="2"/>
 <pinref part="C56*" gate="G$1" pin="1"/>
@@ -11934,9 +12044,9 @@ NS Package M08A</description>
 </net>
 <net name="N$541" class="0">
 <segment>
-<wire x1="104.14" y1="43.18" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="33.02" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<junction x="106.68" y="50.8"/>
+<wire x1="104.14" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="33.02" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<junction x="106.68" y="48.26"/>
 <pinref part="R115*" gate="G$1" pin="2"/>
 <pinref part="R114*" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="A" pin="-IN"/>
@@ -12181,8 +12291,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="R166*" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="58.42" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
-<label x="213.36" y="71.12" size="1.778" layer="95" rot="R90"/>
+<pinref part="JCK1" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$183" class="0">

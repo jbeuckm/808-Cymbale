@@ -11055,7 +11055,7 @@ NS Package M08A</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-33.02" y="149.86" size="3.81" layer="94">Cymbal</text>
+<text x="-33.02" y="149.86" size="3.81" layer="94">Cymbale</text>
 </plain>
 <instances>
 <instance part="C11*" gate="G$1" x="-45.72" y="40.64" rot="R90"/>
@@ -12280,8 +12280,15 @@ NS Package M08A</description>
 </net>
 <net name="LT_LC_OUT1" class="0">
 <segment>
-<wire x1="-66.04" y1="27.94" x2="-68.58" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="DIGINOISE_IN" gate="G$1" pin="TIP"/>
+<wire x1="-68.58" y1="27.94" x2="-53.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="27.94" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C11*" gate="G$1" pin="1"/>
+<wire x1="-53.34" y1="40.64" x2="-48.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C10*" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="-10.16" x2="-53.34" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-10.16" x2="-53.34" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-53.34" y="27.94"/>
 </segment>
 </net>
 <net name="N$6" class="0">
