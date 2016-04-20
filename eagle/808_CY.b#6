@@ -878,7 +878,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="MOLEX" x="20.32" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462926" x="20.32" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC1" library="linear" package="DIL08" value="TL071P" x="33.02" y="16.51" rot="R90"/>
+<element name="IC1" library="linear" package="DIL08" value="TL071P" x="33.02" y="12.7" rot="R90"/>
 <element name="IC2" library="linear" package="DIL08" value="TL071P" x="33.02" y="41.91" rot="R90"/>
 <element name="IC3" library="linear" package="DIL08" value="TL071P" x="33.02" y="27.94" rot="R90"/>
 <element name="IC4" library="linear" package="DIL08" value="TL072P" x="35.56" y="66.04"/>
@@ -915,7 +915,7 @@ design rules under a new name.</description>
 <element name="R113*" library="TR808clone" package="0207/2V" value="18K" x="52.07" y="35.56" rot="R90"/>
 <element name="R114*" library="TR808clone" package="0207/5V" value="39K" x="48.26" y="24.13" rot="R270"/>
 <element name="R115*" library="TR808clone" package="0207/7" value="39K" x="24.13" y="25.4" rot="R90"/>
-<element name="R118*" library="TR808clone" package="0207/5V" value="47K" x="49.53" y="12.7" rot="R90"/>
+<element name="R118*" library="TR808clone" package="0207/5V" value="47K" x="33.02" y="20.32"/>
 <element name="R119*" library="TR808clone" package="0207/5V" value="22K" x="11.43" y="45.72"/>
 <element name="R120*" library="TR808clone" package="0207/5V" value="10K" x="57.15" y="20.32"/>
 <element name="R121*" library="TR808clone" package="0207/5V" value="10K" x="68.58" y="19.05" rot="R180"/>
@@ -924,7 +924,7 @@ design rules under a new name.</description>
 <element name="R125*" library="TR808clone" package="0207/5V" value="2K2" x="10.16" y="33.02"/>
 <element name="R126*" library="TR808clone" package="0207/5V" value="22K" x="78.74" y="48.26" rot="R270"/>
 <element name="R127*" library="TR808clone" package="0207/5V" value="82K" x="83.82" y="43.18" rot="R180"/>
-<element name="R128*" library="TR808clone" package="0207/5V" value="470K" x="33.02" y="7.62" rot="R180"/>
+<element name="R128*" library="TR808clone" package="0207/5V" value="470K" x="33.02" y="2.54"/>
 <element name="R129*" library="TR808clone" package="0207/5V" value="15K" x="11.43" y="39.37" rot="R90"/>
 <element name="R15*" library="TR808clone" package="0207/5V" value="4K7" x="88.9" y="3.81"/>
 <element name="R166*" library="TR808clone" package="0207/5V" value="1K" x="10.16" y="19.05" rot="R270"/>
@@ -1032,7 +1032,7 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="43.18" x2="74.93" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="66.04" x2="39.37" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="21.59" x2="52.07" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="10.16" x2="24.13" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="20.32" x2="24.13" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="5.08" x2="24.13" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="2.5" y1="6.27" x2="20.32" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="2.5" y1="73.58" x2="20.32" y2="66.04" width="0" layer="19" extent="1-1"/>
@@ -1316,8 +1316,8 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="2"/>
 <wire x1="16.256" y1="17.78" x2="15.24" y2="33.81" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="10.16" x2="16.256" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="7.62" x2="24.13" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="15.24" x2="35.56" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="2.54" x2="24.13" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="11.43" x2="30.48" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$546">
 <contactref element="R166*" pad="1"/>
@@ -1325,9 +1325,9 @@ design rules under a new name.</description>
 <contactref element="C77*" pad="2"/>
 <contactref element="LEVEL" pad="1"/>
 <contactref element="IC1" pad="6"/>
-<wire x1="24.13" y1="12.7" x2="29.21" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="7.62" x2="24.13" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="21.59" x2="29.21" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="12.7" x2="29.21" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="2.54" x2="24.13" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="21.59" x2="29.21" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="26.59" x2="10.16" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$547">
@@ -1503,7 +1503,7 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="69.85" x2="50.8" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="40.64" x2="44.45" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="26.67" x2="29.21" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="15.24" x2="29.21" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="11.43" x2="29.21" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V">
 <contactref element="PWR1" pad="1"/>
@@ -1517,7 +1517,7 @@ design rules under a new name.</description>
 <wire x1="78.74" y1="45.72" x2="92.71" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="45.72" x2="78.74" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="31.75" x2="36.83" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="20.32" x2="36.83" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="16.51" x2="36.83" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="39.37" y1="62.23" x2="36.83" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
@@ -1538,7 +1538,7 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="R118*" pad="2"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="36.83" y1="17.78" x2="49.53" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="13.97" x2="35.56" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="OUT_NORM" pad="1"/>
