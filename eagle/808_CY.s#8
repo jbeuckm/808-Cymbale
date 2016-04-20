@@ -10896,7 +10896,6 @@ NS Package M08A</description>
 <part name="R90*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="33K"/>
 <part name="C39*" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value=".47/50"/>
 <part name="V315" library="supply1" deviceset="GND" device=""/>
-<part name="R99*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
 <part name="V316" library="supply1" deviceset="GND" device=""/>
 <part name="C10*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="3.3n"/>
 <part name="R52*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
@@ -10912,7 +10911,6 @@ NS Package M08A</description>
 <part name="R104*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="C45*" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="2.2/50"/>
 <part name="V321" library="supply1" deviceset="GND" device=""/>
-<part name="R103*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="1M"/>
 <part name="C50*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1.5n"/>
 <part name="V322" library="supply1" deviceset="GND" device=""/>
 <part name="R88*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
@@ -11002,10 +11000,9 @@ NS Package M08A</description>
 <part name="R56*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="560R"/>
 <part name="R105*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
 <part name="V33" library="supply1" deviceset="GND" device=""/>
-<part name="R102*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="1M"/>
-<part name="R100*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="1M"/>
-<part name="R97*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
-<part name="R96*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
+<part name="R102*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="2M"/>
+<part name="R100*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="2M"/>
+<part name="R96*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="2M"/>
 <part name="R108*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="18K"/>
 <part name="R107*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="18K"/>
 <part name="LEVEL" library="pot" deviceset="3RP/1610N" device="" value="100kA"/>
@@ -11084,7 +11081,6 @@ NS Package M08A</description>
 <attribute name="VALUE" x="6.223" y="63.9826" size="1.778" layer="96"/>
 </instance>
 <instance part="V315" gate="1" x="15.24" y="58.42"/>
-<instance part="R99*" gate="G$1" x="-2.54" y="48.26" rot="R90"/>
 <instance part="V316" gate="1" x="10.16" y="35.56"/>
 <instance part="C10*" gate="G$1" x="-48.26" y="-10.16" rot="R90"/>
 <instance part="R52*" gate="G$1" x="-38.1" y="-10.16"/>
@@ -11111,7 +11107,6 @@ NS Package M08A</description>
 <instance part="R104*" gate="G$1" x="25.4" y="0" rot="R90"/>
 <instance part="C45*" gate="G$1" x="17.78" y="10.16"/>
 <instance part="V321" gate="1" x="17.78" y="2.54"/>
-<instance part="R103*" gate="G$1" x="-5.08" y="-2.54" rot="R90"/>
 <instance part="C50*" gate="G$1" x="22.86" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.336" y="40.259" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="21.336" y="37.719" size="1.778" layer="96" rot="R180"/>
@@ -11128,7 +11123,7 @@ NS Package M08A</description>
 </instance>
 <instance part="C35*" gate="G$1" x="60.96" y="99.06" smashed="yes">
 <attribute name="NAME" x="62.103" y="91.9226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.103" y="94.4626" size="1.778" layer="96"/>
+<attribute name="VALUE" x="67.183" y="94.4626" size="1.778" layer="96"/>
 </instance>
 <instance part="V324" gate="1" x="60.96" y="91.44"/>
 <instance part="R86*" gate="G$1" x="60.96" y="106.68" rot="R270"/>
@@ -11239,9 +11234,8 @@ NS Package M08A</description>
 <instance part="R56*" gate="G$1" x="-22.86" y="2.54" rot="R90"/>
 <instance part="R105*" gate="G$1" x="25.4" y="20.32" rot="R90"/>
 <instance part="V33" gate="1" x="144.78" y="63.5"/>
-<instance part="R102*" gate="G$1" x="-5.08" y="7.62" rot="R90"/>
-<instance part="R100*" gate="G$1" x="-2.54" y="58.42" rot="R90"/>
-<instance part="R97*" gate="G$1" x="-2.54" y="101.6" rot="R90"/>
+<instance part="R102*" gate="G$1" x="-5.08" y="5.08" rot="R90"/>
+<instance part="R100*" gate="G$1" x="-2.54" y="55.88" rot="R90"/>
 <instance part="R96*" gate="G$1" x="-2.54" y="111.76" rot="R90"/>
 <instance part="R108*" gate="G$1" x="114.3" y="55.88"/>
 <instance part="R107*" gate="G$1" x="111.76" y="7.62"/>
@@ -11486,12 +11480,12 @@ NS Package M08A</description>
 </net>
 <net name="N$498" class="0">
 <segment>
-<pinref part="R99*" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="43.18" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="50.8" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-2.54" y="38.1"/>
 <pinref part="C44*" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G1" pin="B"/>
+<pinref part="R100*" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$500" class="0">
@@ -11553,10 +11547,10 @@ NS Package M08A</description>
 <segment>
 <pinref part="C46*" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="-12.7" x2="-7.62" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="R103*" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-12.7"/>
 <pinref part="Q1" gate="G1" pin="B"/>
+<pinref part="R102*" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$507" class="0">
@@ -11698,11 +11692,11 @@ NS Package M08A</description>
 <segment>
 <wire x1="-2.54" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C42*" gate="G$1" pin="2"/>
-<pinref part="R97*" gate="G$1" pin="1"/>
-<wire x1="-2.54" y1="96.52" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="106.68" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-2.54" y="93.98"/>
 <junction x="-2.54" y="93.98"/>
 <pinref part="Q4" gate="G1" pin="B"/>
+<pinref part="R96*" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$526" class="0">
@@ -12051,12 +12045,6 @@ NS Package M08A</description>
 <pinref part="Q8" gate="G$1" pin="E"/>
 </segment>
 </net>
-<net name="N$176" class="0">
-<segment>
-<pinref part="R103*" gate="G$1" pin="2"/>
-<pinref part="R102*" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$177" class="0">
 <segment>
 <pinref part="R126*" gate="G$1" pin="1"/>
@@ -12078,18 +12066,6 @@ NS Package M08A</description>
 <pinref part="DECAY" gate="G$1" pin="E"/>
 <junction x="66.04" y="22.86"/>
 <pinref part="DECAY" gate="G$1" pin="S"/>
-</segment>
-</net>
-<net name="N$180" class="0">
-<segment>
-<pinref part="R99*" gate="G$1" pin="2"/>
-<pinref part="R100*" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$181" class="0">
-<segment>
-<pinref part="R97*" gate="G$1" pin="2"/>
-<pinref part="R96*" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$223" class="0">
@@ -12156,13 +12132,13 @@ NS Package M08A</description>
 </segment>
 <segment>
 <pinref part="R100*" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="63.5" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="60.96" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="-5.08" y="66.04" size="1.778" layer="95"/>
 <pinref part="P+6" gate="1" pin="+15V"/>
 </segment>
 <segment>
 <pinref part="R102*" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="-7.62" y="15.24" size="1.778" layer="95"/>
 <pinref part="P+7" gate="1" pin="+15V"/>
 </segment>

@@ -12092,12 +12092,6 @@ NS Package M08A</description>
 <pinref part="R96*" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="CY_OUT" class="0">
-<segment>
-<pinref part="R166*" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$223" class="0">
 <segment>
 <pinref part="D11*" gate="G$1" pin="A"/>
@@ -12257,12 +12251,6 @@ NS Package M08A</description>
 <pinref part="IC1" gate="A" pin="+IN"/>
 </segment>
 </net>
-<net name="LT_LC_OUT" class="0">
-<segment>
-<wire x1="213.36" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="OUTPUT" gate="G$1" pin="TIP"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="OUT_NORM" gate="-1" pin="S"/>
@@ -12292,6 +12280,13 @@ NS Package M08A</description>
 <wire x1="-63.5" y1="5.08" x2="-63.5" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="DIGINOISE_IN" gate="G$1" pin="NORM"/>
 <wire x1="-63.5" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R166*" gate="G$1" pin="2"/>
+<pinref part="OUTPUT" gate="G$1" pin="TIP"/>
+<wire x1="210.82" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
