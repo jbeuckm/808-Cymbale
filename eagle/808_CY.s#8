@@ -10087,12 +10087,6 @@ high speed (Philips)</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+5V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+15V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -10115,19 +10109,6 @@ high speed (Philips)</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+5V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -11012,7 +10993,6 @@ NS Package M08A</description>
 <part name="P+2" library="supply1" deviceset="+15V" device=""/>
 <part name="P-1" library="supply1" deviceset="-15V" device=""/>
 <part name="V1" library="supply1" deviceset="GND" device=""/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" deviceset="+15V" device=""/>
 <part name="P+5" library="supply1" deviceset="+15V" device=""/>
 <part name="P+6" library="supply1" deviceset="+15V" device=""/>
@@ -11242,11 +11222,10 @@ NS Package M08A</description>
 <instance part="LEVEL" gate="G$1" x="200.66" y="71.12" rot="MR270"/>
 <instance part="DECAY" gate="G$1" x="66.04" y="17.78"/>
 <instance part="TONE" gate="G$1" x="152.4" y="66.04" rot="R180"/>
-<instance part="PWR1" gate="G$1" x="15.24" y="144.78"/>
+<instance part="PWR1" gate="G$1" x="20.32" y="144.78"/>
 <instance part="P+2" gate="1" x="33.02" y="157.48"/>
 <instance part="P-1" gate="1" x="35.56" y="129.54"/>
 <instance part="V1" gate="1" x="40.64" y="129.54"/>
-<instance part="P+3" gate="1" x="27.94" y="157.48"/>
 <instance part="P+4" gate="1" x="-2.54" y="121.92"/>
 <instance part="P+5" gate="1" x="60.96" y="116.84"/>
 <instance part="P+6" gate="1" x="-2.54" y="68.58"/>
@@ -11429,7 +11408,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="PWR1" gate="G$1" pin="GND"/>
 <pinref part="V1" gate="1" pin="GND"/>
-<wire x1="25.4" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="147.32" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12041,7 +12020,7 @@ NS Package M08A</description>
 <wire x1="76.2" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="157.48" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="PWR1" gate="G$1" pin="CV"/>
-<wire x1="45.72" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="Q8" gate="G$1" pin="E"/>
 </segment>
 </net>
@@ -12092,18 +12071,10 @@ NS Package M08A</description>
 <pinref part="Q4" gate="G1" pin="E"/>
 </segment>
 </net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="PWR1" gate="G$1" pin="+5V"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="25.4" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="142.24" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LT" class="0">
 <segment>
 <pinref part="PWR1" gate="G$1" pin="GATE"/>
-<wire x1="25.4" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="137.16" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R3*" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="142.24" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
@@ -12115,7 +12086,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="PWR1" gate="G$1" pin="+12V"/>
 <pinref part="P+2" gate="1" pin="+15V"/>
-<wire x1="25.4" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="149.86" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12175,7 +12146,7 @@ NS Package M08A</description>
 <net name="-15V" class="0">
 <segment>
 <pinref part="P-1" gate="1" pin="-15V"/>
-<wire x1="25.4" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="PWR1" gate="G$1" pin="-12V"/>
 </segment>
