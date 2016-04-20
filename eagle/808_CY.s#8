@@ -12071,7 +12071,7 @@ NS Package M08A</description>
 <pinref part="Q4" gate="G1" pin="E"/>
 </segment>
 </net>
-<net name="LT" class="0">
+<net name="CY" class="0">
 <segment>
 <pinref part="PWR1" gate="G$1" pin="GATE"/>
 <wire x1="30.48" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>

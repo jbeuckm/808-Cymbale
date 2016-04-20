@@ -10944,12 +10944,12 @@ NS Package M08A</description>
 <part name="V340" library="supply1" deviceset="GND" device=""/>
 <part name="R111*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="V341" library="supply1" deviceset="GND" device=""/>
-<part name="R110*" library="TR808clone" deviceset="R-EU_" device="0207/2V" value="39K"/>
+<part name="R110*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="39K"/>
 <part name="C55*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="10n"/>
 <part name="R112*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="R119*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="R125*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="2K2"/>
-<part name="R115*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="39K"/>
+<part name="R115*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="39K"/>
 <part name="R114*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="39K"/>
 <part name="V343" library="supply1" deviceset="GND" device=""/>
 <part name="C52*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="1n"/>
