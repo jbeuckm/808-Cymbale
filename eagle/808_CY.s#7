@@ -11032,7 +11032,7 @@ NS Package M08A</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-33.02" y="149.86" size="3.81" layer="94">Cymbale</text>
+<text x="137.16" y="121.92" size="3.81" layer="94">Cymbale</text>
 </plain>
 <instances>
 <instance part="C11*" gate="G$1" x="-45.72" y="40.64" rot="R90"/>
