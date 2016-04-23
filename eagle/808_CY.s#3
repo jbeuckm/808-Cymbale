@@ -10902,7 +10902,7 @@ NS Package M08A</description>
 <part name="V324" library="supply1" deviceset="GND" device=""/>
 <part name="R86*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100R"/>
 <part name="R85*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100R"/>
-<part name="R84*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
+<part name="R84*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="R83*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="V325" library="supply1" deviceset="GND" device=""/>
 <part name="R15*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
@@ -10926,7 +10926,7 @@ NS Package M08A</description>
 <part name="C38*" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="1/50"/>
 <part name="V333" library="supply1" deviceset="GND" device=""/>
 <part name="D6*" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
-<part name="R91*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
+<part name="R91*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="33K"/>
 <part name="R92*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="33K"/>
 <part name="R89*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="V335" library="supply1" deviceset="GND" device=""/>
@@ -10940,9 +10940,9 @@ NS Package M08A</description>
 <part name="C49*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="3.3n"/>
 <part name="R106*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="6K8"/>
 <part name="V339" library="supply1" deviceset="GND" device=""/>
-<part name="R109*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="18K"/>
+<part name="R109*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="18K"/>
 <part name="V340" library="supply1" deviceset="GND" device=""/>
-<part name="R111*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
+<part name="R111*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="V341" library="supply1" deviceset="GND" device=""/>
 <part name="R110*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="39K"/>
 <part name="C55*" library="TR808clone" deviceset="C-EU" device="050-030X075" value="10n"/>
@@ -11009,14 +11009,8 @@ NS Package M08A</description>
 <part name="Q7" library="transistor-npn" deviceset="2N3904" device=""/>
 <part name="Q8" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="IC1" library="linear" deviceset="TL071" device="P"/>
-<part name="IC2" library="linear" deviceset="TL071" device="P"/>
-<part name="IC3" library="linear" deviceset="TL071" device="P"/>
 <part name="IC4" library="linear" deviceset="TL072" device="P"/>
-<part name="P+10" library="supply1" deviceset="+15V" device=""/>
 <part name="P+11" library="supply1" deviceset="+15V" device=""/>
-<part name="P+12" library="supply1" deviceset="+15V" device=""/>
-<part name="P-3" library="supply1" deviceset="-15V" device=""/>
-<part name="P-4" library="supply1" deviceset="-15V" device=""/>
 <part name="P-5" library="supply1" deviceset="-15V" device=""/>
 <part name="P+13" library="supply1" deviceset="+15V" device=""/>
 <part name="P-6" library="supply1" deviceset="-15V" device=""/>
@@ -11028,6 +11022,9 @@ NS Package M08A</description>
 <part name="V3" library="supply1" deviceset="GND" device=""/>
 <part name="DIGINOISE_NORM" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="V4" library="supply1" deviceset="GND" device=""/>
+<part name="IC2" library="linear" deviceset="TL072" device="P"/>
+<part name="P+1" library="supply1" deviceset="+15V" device=""/>
+<part name="P-3" library="supply1" deviceset="-15V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11242,15 +11239,9 @@ NS Package M08A</description>
 <instance part="Q7" gate="G1" x="73.66" y="86.36" rot="MR0"/>
 <instance part="Q8" gate="G$1" x="-25.4" y="119.38"/>
 <instance part="IC1" gate="A" x="182.88" y="40.64" rot="MR180"/>
-<instance part="IC2" gate="A" x="121.92" y="78.74" rot="MR180"/>
-<instance part="IC3" gate="A" x="114.3" y="30.48" rot="MR180"/>
 <instance part="IC4" gate="A" x="-20.32" y="38.1" rot="MR180"/>
 <instance part="IC4" gate="B" x="-22.86" y="-12.7" rot="MR180"/>
-<instance part="P+10" gate="1" x="111.76" y="20.32" rot="R180"/>
 <instance part="P+11" gate="1" x="180.34" y="30.48" rot="R180"/>
-<instance part="P+12" gate="1" x="119.38" y="68.58" rot="R180"/>
-<instance part="P-3" gate="1" x="111.76" y="40.64" rot="R180"/>
-<instance part="P-4" gate="1" x="119.38" y="88.9" rot="R180"/>
 <instance part="P-5" gate="1" x="180.34" y="50.8" rot="R180"/>
 <instance part="IC4" gate="P" x="-40.64" y="17.78"/>
 <instance part="P+13" gate="1" x="-40.64" y="30.48"/>
@@ -11265,6 +11256,11 @@ NS Package M08A</description>
 <instance part="DIGINOISE_NORM" gate="-1" x="-68.58" y="5.08" rot="MR0"/>
 <instance part="DIGINOISE_NORM" gate="-2" x="-68.58" y="2.54" rot="MR0"/>
 <instance part="V4" gate="1" x="-63.5" y="-2.54" rot="MR0"/>
+<instance part="IC2" gate="A" x="121.92" y="78.74" rot="MR180"/>
+<instance part="IC2" gate="B" x="114.3" y="30.48"/>
+<instance part="IC2" gate="P" x="137.16" y="55.88"/>
+<instance part="P+1" gate="1" x="137.16" y="68.58"/>
+<instance part="P-3" gate="1" x="137.16" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -11754,11 +11750,11 @@ NS Package M08A</description>
 <wire x1="124.46" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C55*" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="OUT"/>
 <wire x1="132.08" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="96.52" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 <junction x="132.08" y="78.74"/>
 <wire x1="132.08" y1="55.88" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$534" class="0">
@@ -11793,7 +11789,7 @@ NS Package M08A</description>
 <wire x1="104.14" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R113*" gate="G$1" pin="1"/>
 <pinref part="C52*" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="A" pin="+IN"/>
+<pinref part="IC2" gate="B" pin="-IN"/>
 <junction x="106.68" y="27.94"/>
 </segment>
 </net>
@@ -11805,11 +11801,11 @@ NS Package M08A</description>
 <wire x1="116.84" y1="7.62" x2="124.46" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="C56*" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="OUT"/>
 <wire x1="124.46" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="7.62" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
 <junction x="124.46" y="30.48"/>
 <wire x1="124.46" y1="48.26" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="N$540" class="0">
@@ -11830,7 +11826,7 @@ NS Package M08A</description>
 <junction x="106.68" y="48.26"/>
 <pinref part="R115*" gate="G$1" pin="2"/>
 <pinref part="R114*" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="A" pin="-IN"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="N$544" class="0">
@@ -12128,21 +12124,18 @@ NS Package M08A</description>
 <pinref part="Q2" gate="G1" pin="C"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="V+"/>
-<pinref part="P+10" gate="1" pin="+15V"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="V+"/>
 <pinref part="P+11" gate="1" pin="+15V"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="A" pin="V+"/>
-<pinref part="P+12" gate="1" pin="+15V"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="P" pin="V+"/>
 <pinref part="P+13" gate="1" pin="+15V"/>
 <wire x1="-40.64" y1="27.94" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="P" pin="V+"/>
+<pinref part="P+1" gate="1" pin="+15V"/>
+<wire x1="137.16" y1="66.04" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -12159,14 +12152,6 @@ NS Package M08A</description>
 <wire x1="55.88" y1="-33.02" x2="55.88" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="V-"/>
-<pinref part="P-3" gate="1" pin="-15V"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="A" pin="V-"/>
-<pinref part="P-4" gate="1" pin="-15V"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="V-"/>
 <pinref part="P-5" gate="1" pin="-15V"/>
 </segment>
@@ -12174,6 +12159,11 @@ NS Package M08A</description>
 <pinref part="IC4" gate="P" pin="V-"/>
 <pinref part="P-6" gate="1" pin="-15V"/>
 <wire x1="-40.64" y1="7.62" x2="-40.64" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="P" pin="V-"/>
+<pinref part="P-3" gate="1" pin="-15V"/>
+<wire x1="137.16" y1="45.72" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
