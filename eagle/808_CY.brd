@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -145,6 +145,32 @@
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="90.932" y1="14.732" x2="94.742" y2="20.828" layer="16"/>
+<wire x1="-0.762" y1="0.254" x2="-0.762" y2="79.756" width="1.6764" layer="46"/>
+<wire x1="-0.762" y1="79.756" x2="0.254" y2="80.772" width="1.6764" layer="46"/>
+<wire x1="0.254" y1="80.772" x2="0.508" y2="80.772" width="1.6764" layer="46"/>
+<wire x1="0.508" y1="80.772" x2="0.762" y2="81.026" width="1.6764" layer="46"/>
+<wire x1="0.762" y1="81.026" x2="96.774" y2="81.026" width="1.6764" layer="46"/>
+<wire x1="96.774" y1="81.026" x2="98.044" y2="79.756" width="1.6764" layer="46"/>
+<wire x1="98.044" y1="79.756" x2="98.044" y2="0.254" width="1.6764" layer="46"/>
+<wire x1="98.044" y1="0.254" x2="96.774" y2="-1.016" width="1.6764" layer="46"/>
+<wire x1="96.774" y1="-1.016" x2="0.254" y2="-1.016" width="1.6764" layer="46"/>
+<wire x1="0.254" y1="-1.016" x2="-0.762" y2="0" width="1.6764" layer="46"/>
+<wire x1="8.382" y1="7.366" x2="9.398" y2="7.366" width="1.6764" layer="46"/>
+<wire x1="9.398" y1="7.366" x2="9.398" y2="6.096" width="1.6764" layer="46"/>
+<wire x1="9.398" y1="6.096" x2="8.128" y2="6.096" width="1.6764" layer="46"/>
+<wire x1="8.128" y1="6.096" x2="8.128" y2="7.366" width="1.6764" layer="46"/>
+<wire x1="8.128" y1="77.47" x2="9.144" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="9.144" y1="77.47" x2="9.144" y2="76.2" width="1.6764" layer="46"/>
+<wire x1="9.144" y1="76.2" x2="7.874" y2="76.2" width="1.6764" layer="46"/>
+<wire x1="7.874" y1="76.2" x2="7.874" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="92.71" y1="77.47" x2="93.726" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="93.726" y1="77.47" x2="93.726" y2="76.2" width="1.6764" layer="46"/>
+<wire x1="93.726" y1="76.2" x2="92.456" y2="76.2" width="1.6764" layer="46"/>
+<wire x1="92.456" y1="76.2" x2="92.456" y2="77.47" width="1.6764" layer="46"/>
+<wire x1="82.55" y1="12.192" x2="83.566" y2="12.192" width="1.6764" layer="46"/>
+<wire x1="83.566" y1="12.192" x2="83.566" y2="10.922" width="1.6764" layer="46"/>
+<wire x1="83.566" y1="10.922" x2="82.296" y2="10.922" width="1.6764" layer="46"/>
+<wire x1="82.296" y1="10.922" x2="82.296" y2="12.192" width="1.6764" layer="46"/>
 </plain>
 <libraries>
 <library name="TR808clone">
