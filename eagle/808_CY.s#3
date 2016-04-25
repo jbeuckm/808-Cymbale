@@ -10901,7 +10901,7 @@ NS Package M08A</description>
 <part name="C35*" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="47/16"/>
 <part name="V324" library="supply1" deviceset="GND" device=""/>
 <part name="R86*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100R"/>
-<part name="R85*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100R"/>
+<part name="R85*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100R"/>
 <part name="R84*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="R83*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
 <part name="V325" library="supply1" deviceset="GND" device=""/>

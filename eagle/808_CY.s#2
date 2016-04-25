@@ -10975,7 +10975,7 @@ NS Package M08A</description>
 <part name="C58*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="10n"/>
 <part name="R123*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100K"/>
 <part name="C57*" library="TR808clone" deviceset="C-EU" device="3.5MM_PITCH" value="3.3n"/>
-<part name="R121*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
+<part name="R121*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="V349" library="supply1" deviceset="GND" device=""/>
 <part name="R58*" library="TR808clone" deviceset="R-EU_" device="0207/7" value="560R"/>
 <part name="R56*" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="560R"/>
